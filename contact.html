@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact ProDentalExpert - Get in touch with our dental practice">
+    <title>Contact Us - ProDentalExpert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">ProDentalExpert</div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="contact.html" class="nav-link active">Contact Us</a></li>
+                <li><a href="privacy.html" class="nav-link">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Contact Us</h1>
+            <p>We'd Love to Hear From You</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Contact Information Section -->
+        <section class="content-section">
+            <h2>Get in Touch</h2>
+            <p>Have questions about our services or ready to schedule an appointment? We're here to help. Fill out the form below or contact us directly using the information provided.</p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin: 2rem 0;">
+                <div class="highlight-box">
+                    <h4>Phone</h4>
+                    <p><strong>(555) 123-4567</strong></p>
+                    <p>Monday - Friday: 9:00 AM - 5:00 PM<br>Saturday: 10:00 AM - 2:00 PM<br>Sunday: Closed</p>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>Email</h4>
+                    <p><strong>info@prodentalexpert.com</strong></p>
+                    <p>We respond to all inquiries within 24 hours during business days.</p>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>Location</h4>
+                    <p><strong>ProDentalExpert Clinic</strong><br>123 Dental Avenue<br>Smile City, ST 12345<br>United States</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="content-section">
+            <h2>Send Us a Message</h2>
+            <p>Please fill out the form below and we'll get back to you as soon as possible.</p>
+
+            <form id="contactForm" class="contact-form" method="POST" action="https://formspree.io/f/YOUR_FORM_ID">
+                <div class="form-group">
+                    <label for="name">Full Name *</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Full Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject *</label>
+                    <select id="subject" name="subject" required>
+                        <option value="">-- Select a Subject --</option>
+                        <option value="appointment">Schedule an Appointment</option>
+                        <option value="implants">Dental Implants Inquiry</option>
+                        <option value="general">General Question</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" name="message" required placeholder="Please tell us how we can help you..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="privacy" required>
+                        I agree to the <a href="privacy.html">Privacy Policy</a>
+                    </label>
+                </div>
+
+                <button type="submit" class="cta-button">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Office Hours Section -->
+        <section class="content-section">
+            <h2>Office Hours</h2>
+            <table style="width: 100%; border-collapse: collapse; margin: 1.5rem 0;">
+                <thead>
+                    <tr style="background-color: var(--primary-color); color: white;">
+                        <th style="padding: 1rem; text-align: left; border: 1px solid var(--border-color);">Day</th>
+                        <th style="padding: 1rem; text-align: left; border: 1px solid var(--border-color);">Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="padding: 1rem; border: 1px solid var(--border-color);">Monday</td>
+                        <td style="padding: 1rem; border: 1px solid var(--border-color);">9:00 AM - 5:00 PM</td>
+                    </tr>
+                    <tr style="background-color: var(--light-color);">
+                        <td style="padding: 1rem; border: 1px solid var(--border-color);">Tuesday</td>
+                        <td style="padding: 1rem; border: 1px solid var(--border-color);">9:00 AM - 5:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 1rem; border: 1px solid var(--border-color);">Wednesday</td>
+                        <td style="padding: 1rem; border: 1px solid var(--border-color);">9:00 AM - 5:00 PM</td>
+                    </tr>
+                    <tr style="background-color: var(--light-color);">
+                        <td style="padding: 1rem; border: 1px solid var(--border-color);">Thursday</td>
+                        <td style="padding: 1rem; border: 1px solid var(--border-color);">9:00 AM - 5:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 1rem; border: 1px solid var(--border-color);">Friday</td>
+                        <td style="padding: 1rem; border: 1px solid var(--border-color);">9:00 AM - 5:00 PM</td>
+                    </tr>
+                    <tr style="background-color: var(--light-color);">
+                        <td style="padding: 1rem; border: 1px solid var(--border-color);">Saturday</td>
+                        <td style="padding: 1rem; border: 1px solid var(--border-color);">10:00 AM - 2:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 1rem; border: 1px solid var(--border-color);">Sunday</td>
+                        <td style="padding: 1rem; border: 1px solid var(--border-color);">Closed</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Emergency Contact Section -->
+        <section class="content-section">
+            <h2>Emergency Dental Care</h2>
+            <p>If you experience a dental emergency outside of our regular office hours, please call our emergency line at <strong>(555) 123-4568</strong>. We have an on-call dentist available for urgent situations.</p>
+            
+            <div class="highlight-box">
+                <h4>Common Dental Emergencies</h4>
+                <ul style="margin-left: 1.5rem; line-height: 2;">
+                    <li>Severe tooth pain or swelling</li>
+                    <li>Knocked-out or broken tooth</li>
+                    <li>Abscess or infection</li>
+                    <li>Loose or lost filling/crown</li>
+                    <li>Bleeding gums or mouth injury</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <h2>Ready to Smile Again?</h2>
+            <p>Contact us today to schedule your consultation and discover how we can help restore your smile.</p>
+            <a href="#contactForm" class="cta-button">Send Message</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>ProDentalExpert</h4>
+                <p>Providing patient-centered dental care with advanced implant technology in a welcoming environment.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Services</h4>
+                <ul>
+                    <li>Routine Check-ups</li>
+                    <li>Dental Implants</li>
+                    <li>Advanced Treatments</li>
+                    <li>Patient Comfort Focus</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 ProDentalExpert. All rights reserved. | <a href="privacy.html">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple form validation and submission handling
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            if (name && email && message) {
+                alert('Thank you for your message! We will get back to you soon.');
+                this.reset();
+            } else {
+                alert('Please fill out all required fields.');
+            }
+        });
+    </script>
+</body>
+</html>
